@@ -1,0 +1,175 @@
+
+
+#HOME h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 190px;
+    margin-bottom: auto;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#HOME p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 60px;
+}
+
+#HOME .contenedor1 {
+    background-color: #e7ddd3;
+    border-radius: 20px;
+    background-position-y: 800px;
+    background-position-x: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 280px;
+    padding: 10px;
+}
+
+.contenedor2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-image: url(Imagenes/Foto\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 700px;
+    background-position-x: 90%;
+    background-position-y: 90%; 
+}
+/*#SOBRE-MI p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 180px;
+    margin-right: 900px;
+    height: 60px;
+}*/
+.contenedor3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 180px;
+    margin-right: 900px;
+    margin-bottom: 450px;
+    height: 60px;
+}
+#SOBRE-MI h2 {
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    font-size: 180px;
+    margin-left: 150px;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+#SOBRE-MI {
+    background-image: url(Imagenes/Fondo_Sobre_Mi-02.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1850px;
+    height: 900px;
+}
+#SERVICIOS h2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 180px;
+    margin: 400px auto 0px auto;
+    text-align: center;
+}
+
+#TRABAJOS h2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 180px;
+    margin: 400px auto 0px auto;
+    text-align: center;
+}
+
+#CONTACTO h2{
+        font-family: 'Kanit', sans-serif;
+        font-size: 200px;
+        margin: 400px 150px 0px 150px;
+        text-align: center;
+}
+/*h1 { background-image: url(Imagenes/LOGO.png);
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    width:250px; height:134px;
+    text-indent: -1999px;
+    overflow: hidden;
+    }*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+        width: auto;
+        height: 102px;
+        background-color: black;
+        margin: 0px 0px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+#logo {
+        background-image: url(Imagenes/LOGO.png);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 134px;
+        font-size: 0;
+        margin: auto;
+        float: left;
+    }
+nav { 
+    width: auto;
+    height: 102px;
+    background-color: black;
+    margin: auto;
+    text-align: right;
+    position: sticky;
+    top: 0;
+}
+nav ul li {
+            list-style-type: none;
+            width: 150px;
+            margin: 18px;
+            display: inline-block;
+}
+nav ul li a {
+                text-decoration: none;
+                display: block;
+                background: #e7ddd3;
+                border-radius: 12px;
+                text-align: center;
+                font-size: 20px;
+                font-family: 'Kanit', sans-serif;
+                color: black;
+                padding: 18px 0;
+
+}
+nav ul li a:hover {
+                background: #8d867f;
+                color: white;
+}
+
+footer {
+display: block;
+background-color: #8d867f7a;
+color: #000000;
+text-align: left;
+font-family: 'Montserrat', sans-serif;
+padding: 20px 0;
+margin: 350px 0px auto 0px;
+}
+
+footer p {
+margin: 5px 0px 5px 300px;
+}
